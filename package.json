@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next -p 4005",
+    "build": "next build",
+    "postbuild": "next-sitemap",
+    "start": "next start",
+    "depcheck": "depcheck"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "2.2.1",
+    "@emotion/react": "11.9.3",
+    "@emotion/styled": "11.9.3",
+    "framer-motion": "6.3.16",
+    "next": "12.2.0",
+    "phosphor-react": "^1.4.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-toastify": "9.0.5",
+    "url-join": "5.0.0"
+  }
+}
