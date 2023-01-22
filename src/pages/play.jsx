@@ -99,9 +99,9 @@ export default function PlayPage() {
                 </Center>
               </Box>
             </Link>
-            <Link href="/yellow">
+            <Link href="/green">
               <Box
-                bg="yellow.600"
+                bg="green.600"
                 borderRadius={15}
                 borderWidth="3px"
                 borderColor="white"

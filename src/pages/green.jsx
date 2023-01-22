@@ -1,6 +1,6 @@
 import { Container, Section } from "../styles/pages/home";
 import React, { useState, useEffect } from "react";
-import { Questions } from "../data/yellowQuestions.js";
+import { Questions } from "../data/greenQuestions.js";
 
 import { useRouter } from "next/router";
 import UseAnimations from "react-useanimations";
@@ -10,7 +10,6 @@ import radioButton from "react-useanimations/lib/radioButton";
 import {
   Text,
   Box,
-  Image,
   Divider,
   Center,
   CircularProgress,
@@ -23,10 +22,10 @@ import {
   ModalHeader,
   ModalFooter,
   ModalBody,
-  ModalCloseButton,
   Button,
 } from "@chakra-ui/react";
 
+const randomQuestion = Questions[Math.floor(Math.random() * Questions.length)];
 export default function PlayPage() {
   const [timeLeft, setTimeLeft] = useState(30); // inicializa o contador com 30 segundos
   const [userChoice, setUserChoice] = useState(false);
@@ -47,9 +46,6 @@ export default function PlayPage() {
     return () => clearInterval(interval);
   }, [timeLeft]);
 
-  const randomQuestion =
-    Questions[Math.floor(Math.random() * Questions.length)];
-
   function handleClick(index) {
     setUserChoice(true);
     if (index === randomQuestion.correct) {
@@ -65,7 +61,7 @@ export default function PlayPage() {
         <Center
           width="100vw"
           height="100vh"
-          bgGradient="linear-gradient(336deg, yellow 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, yellow 100%);"
+          bgGradient="linear-gradient(336deg, green 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, green 100%);"
         >
           <Box bg="gray.200" w="90vw" h="90vh" borderRadius="25px">
             <Center>
@@ -80,7 +76,7 @@ export default function PlayPage() {
                 borderRadius="550px"
                 my="30px"
                 mb="20px"
-                color="yellow"
+                color="green"
               >
                 <CircularProgressLabel
                   color="white"

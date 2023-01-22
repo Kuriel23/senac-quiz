@@ -10,7 +10,6 @@ import radioButton from "react-useanimations/lib/radioButton";
 import {
   Text,
   Box,
-  Image,
   Divider,
   Center,
   CircularProgress,
@@ -23,10 +22,10 @@ import {
   ModalHeader,
   ModalFooter,
   ModalBody,
-  ModalCloseButton,
   Button,
 } from "@chakra-ui/react";
 
+const randomQuestion = Questions[Math.floor(Math.random() * Questions.length)];
 export default function PlayPage() {
   const [timeLeft, setTimeLeft] = useState(30); // inicializa o contador com 30 segundos
   const [userChoice, setUserChoice] = useState(false);
@@ -46,9 +45,6 @@ export default function PlayPage() {
     }, 1000);
     return () => clearInterval(interval);
   }, [timeLeft]);
-
-  const randomQuestion =
-    Questions[Math.floor(Math.random() * Questions.length)];
 
   function handleClick(index) {
     setUserChoice(true);
