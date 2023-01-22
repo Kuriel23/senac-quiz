@@ -1,6 +1,6 @@
 import { Container, Section } from "../styles/pages/home";
 import React, { useState, useEffect } from "react";
-import { Questions } from "../data/greenQuestions.js";
+import { Questions } from "../data/purpleQuestions.js";
 
 import { useRouter } from "next/router";
 import UseAnimations from "react-useanimations";
@@ -65,7 +65,7 @@ export default function PlayPage() {
         <Center
           width="100vw"
           height="100vh"
-          bgGradient="linear-gradient(336deg, green 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, green 100%);"
+          bgGradient="linear-gradient(336deg, purple 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, purple 100%);"
         >
           <Box bg="gray.200" w="90vw" h="90vh" borderRadius="25px">
             <Center>
@@ -80,7 +80,7 @@ export default function PlayPage() {
                 borderRadius="550px"
                 my="30px"
                 mb="20px"
-                color="green"
+                color="purple"
               >
                 <CircularProgressLabel
                   color="white"
