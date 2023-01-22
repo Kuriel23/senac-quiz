@@ -80,7 +80,7 @@ export default function PlayPage() {
                 borderRadius="550px"
                 my="30px"
                 mb="20px"
-                color="purple"
+                color="purple.600"
               >
                 <CircularProgressLabel
                   color="white"
