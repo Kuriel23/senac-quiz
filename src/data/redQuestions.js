@@ -42,6 +42,6 @@ export const Questions = [
   {
     question: "Quem pintou o famoso quadro da Mona Lisa?",
     choices: ["Salvador Dali", "Van Gogh", "Leonardo da Vinci", "Tarsila do Amaral"],
-    correct: 3,
+    correct: 2,
   },
 ];
