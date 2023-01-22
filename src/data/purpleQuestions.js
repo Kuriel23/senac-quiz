@@ -10,7 +10,7 @@ export const Questions = [
     correct: 0,
   },
   {
-    question: "A remuneração do trabalho notruno será feita na base da remuneração do trabalho diurno, acrescida de 25%.",
+    question: "A remuneração do trabalho noturno será feita na base da remuneração do trabalho diurno, acrescida de 25%.",
     choices: ["Certo", "Errado"],
     correct: 0,
   },
