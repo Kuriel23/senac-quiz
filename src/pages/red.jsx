@@ -27,7 +27,7 @@ import {
 
 const randomQuestion = Questions[Math.floor(Math.random() * Questions.length)];
 export default function PlayPage() {
-  const [timeLeft, setTimeLeft] = useState(30); // inicializa o contador com 30 segundos
+  const [timeLeft, setTimeLeft] = useState(45); // inicializa o contador com 45 segundos
   const [userChoice, setUserChoice] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
 
@@ -67,7 +67,7 @@ export default function PlayPage() {
             <Center>
               <CircularProgress
                 value={timeLeft !== "FIM" ? timeLeft : 0}
-                max={30}
+                max={45}
                 size="120px"
                 thickness="10px"
                 capIsRound
