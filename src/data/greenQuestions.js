@@ -19,4 +19,19 @@ export const Questions = [
     choices: ["15", "30", "300", "3000"],
     correct: 1,
   },  
- ];
+  {
+    question: "Nо dіа 1 dеѕtе mêѕ, um рrоdutо еѕtаvа ѕеndо vеndіdо роr R$ 400,00. Nо dіа 10, еѕѕе рrоdutо ѕоfrеu um rеduçãо dе 50% nо ѕеu рrеçо. Nо dіа 20, еlе fоі rеајuѕtаdо соm um аumеntо dе 50%. Еѕсоlhа а аltеrnаtіvа соrrеtа.",
+    choices: ["O produto estava mais barato no dia 1 do que no dia 20.", "No dia 20 o produto estava com o mesmo preço que ele estava no dia 1.", "O produto estava mais barato no dia 20 do que no dia 1."],
+    correct: 2,
+  },
+  {
+    question: "Sheila deu as seguintes instruções para Bruno: • Pense em um número maior que 0; • Adicione 3 ao número pensado; • Multiplique o resultado anterior por 4; • Subtraia 12 do resultado anterior; • Divida o resultado anterior pelo número pensado. Se Bruno seguiu corretamente as instruções dadas, o resultado da última operação foi igual a:",
+    choices: ["4", "6", "8", "10"],
+    correct: 0,
+  },
+  {
+    question: "Ao escutar a notícia de que um filme recém-lançado arrecadou, no primeiro mês de lançamento, R$ 1,35 bilhão em bilheteria, um estudante escreveu corretamente o número que representa essa quantia, com todos os seus algarismos.",
+    choices: ["1 350 000,00", "13 500 000,00", "135 000 000,00", "1 350 000 000,00"],
+    correct: 3,
+  },
+  ];
