@@ -6,22 +6,38 @@ export const Questions = [
   },
   {
     question: "O que significa a sigla IST?",
-    choices: ["Infecções Sexualmente Transmissíveis", "Inspeção de Segurança Trabalhista", "Instauração da Seguridade Trabalhista", "Influência Social no Trabalho"],
+    choices: [
+      "Infecções Sexualmente Transmissíveis",
+      "Inspeção de Segurança Trabalhista",
+      "Instauração da Seguridade Trabalhista",
+      "Influência Social no Trabalho",
+    ],
     correct: 0,
   },
   {
-    question: "Como se chamam os vasos que transportam o sangue do coração para o corpo?",
+    question:
+      "Como se chamam os vasos que transportam o sangue do coração para o corpo?",
     choices: ["Veias", "Átrios", "Ventrículos", "Artérias"],
     correct: 3,
   },
   {
     question: "O que é PIX?",
-    choices: ["Meio de pagamento instantâneo criado pelo Banco Central", "Plano de Investimento", "Forma de Pagamento Presencial", "Conjunto de Formas de Pagamento"],
+    choices: [
+      "Meio de pagamento instantâneo criado pelo Banco Central",
+      "Plano de Investimento",
+      "Forma de Pagamento Presencial",
+      "Conjunto de Formas de Pagamento",
+    ],
     correct: 0,
   },
   {
     question: "Qual das alternativas contém apenas vacinas contra a Covid-19?",
-    choices: ["VIP/VOP & Astrazeneca", "BioTech & CoronaVac", "CoronaVac & Astrazeneca", "RotaVirus & Sputnik"],
+    choices: [
+      "VIP/VOP & Astrazeneca",
+      "BioTech & CoronaVac",
+      "CoronaVac & Astrazeneca",
+      "RotaVirus & Sputnik",
+    ],
     correct: 2,
   },
   {
@@ -41,17 +57,32 @@ export const Questions = [
   },
   {
     question: "Quem pintou o famoso quadro da Mona Lisa?",
-    choices: ["Salvador Dali", "Van Gogh", "Leonardo da Vinci", "Tarsila do Amaral"],
+    choices: [
+      "Salvador Dali",
+      "Van Gogh",
+      "Leonardo da Vinci",
+      "Tarsila do Amaral",
+    ],
     correct: 2,
   },
-   {
+  {
     question: "Quantos fusos horários existem no Brasil?",
-    choices: ["4 fusos horários", "2 fusos", "1 fuso", "Nenhum, pois fuso horário só existe de um país para o outro."],
+    choices: [
+      "4 fusos horários",
+      "2 fusos",
+      "1 fuso",
+      "Nenhum, pois fuso horário só existe de um país para o outro.",
+    ],
     correct: 0,
   },
   {
     question: "Quantos centímetros tem um metro?",
-    choices: ["1000 centímetros", "60 centímetros", "100 centímetros", "10000 centímetros"],
+    choices: [
+      "1000 centímetros",
+      "60 centímetros",
+      "100 centímetros",
+      "10000 centímetros",
+    ],
     correct: 2,
   },
   {

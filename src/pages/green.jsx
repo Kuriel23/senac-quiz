@@ -25,11 +25,13 @@ import {
   Button,
 } from "@chakra-ui/react";
 
-const randomQuestion = Questions[Math.floor(Math.random() * Questions.length)];
 export default function PlayPage() {
   const [timeLeft, setTimeLeft] = useState(45); // inicializa o contador com 45 segundos
   const [userChoice, setUserChoice] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
+  const [randomQuestion, setRandomQuestion] = useState(
+    Questions[Math.floor(Math.random() * Questions.length)]
+  );
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -60,10 +62,12 @@ export default function PlayPage() {
       <Section>
         <Center
           width="100vw"
-          height="100vh"
+          height="max-content"
+          minH="100vh"
+          padding="15px"
           bgGradient="linear-gradient(336deg, green 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, green 100%);"
         >
-          <Box bg="gray.200" w="90vw" h="90vh" borderRadius="25px">
+          <Box bg="gray.200" w="90vw" minH="90vh" h="max-content" borderRadius="25px">
             <Center>
               <CircularProgress
                 value={timeLeft !== "FIM" ? timeLeft : 0}
@@ -135,8 +139,9 @@ export default function PlayPage() {
 
             <Text
               fontSize="5xl"
+              mx="auto"
               my="30px"
-              maxW="95%"
+              maxW="99%"
               textAlign="center"
               fontWeight="700"
             >
