@@ -66,7 +66,7 @@ export default function PlayPage() {
           height="max-content"
           minH="100vh"
           padding="15px"
-          bgGradient="linear-gradient(336deg, green 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, green 100%);"
+          bgGradient="linear-gradient(336deg, blue 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, blue 100%);"
         >
           <Box
             bg="gray.200"
