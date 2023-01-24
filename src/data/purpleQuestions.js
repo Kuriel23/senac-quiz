@@ -15,12 +15,12 @@ export const Questions = [
     correct: 0,
   },
   {
-    question: "Conforme descrito na CLT, o adicional notruno é realizado no horário de trabalho:",
+    question: "Conforme descrito na CLT, o adicional noturno é realizado no horário de trabalho:",
     choices: ["das 23 horas às 06 da manhã", "conforme descrito em cada convenção ou acordo coletivo de trabalho de acordo com cada categoria", "das 00:00 horas até às 05:00 da manhã", "das 22 horas às 05 da manhã"],
     correct: 3,
   },
   {
-    question: "Com relação ao trabalho noturno, perigoso ou insalubre, realizado por trabalhadores efetivos, a Constituição Federal dispôe que poderá ocorrer somente:",
+    question: "Com relação ao trabalho noturno, perigoso ou insalubre, realizado por trabalhadores efetivos, a Constituição Federal dispõe que poderá ocorrer somente:",
     choices: ["a partir de 14 anos", "a partir de 16 anos", "a partir de 18 anos", "quando o profissional for qualificado e estiver em perfeitas condições de saúde"],
     correct: 2,
   },

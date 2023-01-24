@@ -42,6 +42,21 @@ export const Questions = [
   {
     question: "Quem pintou o famoso quadro da Mona Lisa?",
     choices: ["Salvador Dali", "Van Gogh", "Leonardo da Vinci", "Tarsila do Amaral"],
+    correct: 2,
+  },
+   {
+    question: "Quantos fusos horários existem no Brasil?",
+    choices: ["4 fusos horários", "2 fusos", "1 fuso", "Nenhum, pois fuso horário só existe de um país para o outro."],
+    correct: 0,
+  },
+  {
+    question: "Quantos centímetros tem um metro?",
+    choices: ["1000 centímetros", "60 centímetros", "100 centímetros", "10000 centímetros"],
+    correct: 2,
+  },
+  {
+    question: "Qual o nome da primeira revista Brasileira?",
+    choices: ["Veja", "A Patriota", "Forbes", "O Tico-Tico"],
     correct: 3,
   },
 ];
