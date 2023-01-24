@@ -25,6 +25,7 @@ import {
   Button,
 } from "@chakra-ui/react";
 
+const letters = ["A", "B", "C", "D"];
 export default function PlayPage() {
   const [timeLeft, setTimeLeft] = useState(45); // inicializa o contador com 45 segundos
   const [userChoice, setUserChoice] = useState(false);
@@ -76,7 +77,7 @@ export default function PlayPage() {
                 thickness="10px"
                 capIsRound
                 bg="purple"
-                trackColor="black"
+                trackColor="red"
                 borderRadius="550px"
                 my="30px"
                 mb="20px"
@@ -173,7 +174,7 @@ export default function PlayPage() {
                   }
                 >
                   <Text fontSize="3xl" textAlign="left" p="2vh">
-                    {index + 1}. {choice}
+                    {letters[index]}. {choice}
                   </Text>
                 </Box>
               );

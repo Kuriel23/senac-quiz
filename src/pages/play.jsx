@@ -16,13 +16,14 @@ export default function PlayPage() {
       <Section>
         <Center
           width="100vw"
-          height="100vh"
+          minH="100vh"
+          height="max-content"
           bgGradient="linear-gradient(336deg, rgba(29,2,76,1) 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, rgba(29,2,76,1) 100%);"
         >
           <SimpleGrid
             columns={{ xl: 4, base: 1 }}
             spacing={10}
-            w="90vw"
+            w="95vw"
             maxH="50vh"
           >
             <Link href="/red">
