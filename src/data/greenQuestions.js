@@ -12,7 +12,7 @@ export const Questions = [
   {
     question: "Quanto é 2+2+6x2?",
     choices: ["10", "12", "14", "16"],
-    correct: 1,
+    correct: 3,
   },
   {
     question: "Mário pretende realizar uma viagem utilizando um veículo cujo consumo médio de combustível é de 10 Km/L. Sabendo que percorrerá 300 000 m, é correto afirmar que o volume de combustível a ser consumido será de:",
