@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 
 export default function PlayPage() {
+  const localStorage = typeof window !== `undefined` ? window.localStorage : null
   const [isEnfermagem, setIsEnfermagem] = useState(
     localStorage.getItem("isEnfermagem")
       ? JSON.parse(localStorage.getItem("isEnfermagem"))
