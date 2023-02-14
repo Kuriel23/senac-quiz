@@ -15,7 +15,7 @@ import {
 export default function PlayPage() {
   const localStorage = typeof window !== `undefined` ? window.localStorage : null
   const [isEnfermagem, setIsEnfermagem] = useState(
-    localStorage.getItem("isEnfermagem")
+    localStorage && localStorage.getItem("isEnfermagem")
       ? JSON.parse(localStorage.getItem("isEnfermagem"))
       : false
   );
