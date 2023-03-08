@@ -54,4 +54,128 @@ export const Questions = [
     ],
     correct: 1,
   },
+  {
+    question:
+      "Em até quantos dias deve ser feito o pagamento das férias ao empregado, antes do mesmo entrar de férias?",
+    choices: [
+      "7 dias",
+      "2 dias",
+      "3 dias",
+      "4 dias",
+    ],
+    correct: 1,
+  },
+  {
+    question:
+      "Quanto tempo a empresa tem para pagar as verbas da rescisão do contrato de trabalho?",
+    choices: [
+      "3 dias",
+      "24 horas",
+      "10 dias",
+      "20 dias",
+    ],
+    correct: 2,
+  },
+  {
+    question:
+      "Quando o empregado falta de 6 a 14 dias injustificáveis, a quantos dias de férias o mesmo tem direito?",
+    choices: [
+      "30 dias",
+      "24 dias",
+      "10 dias",
+      "20 dias",
+    ],
+    correct: 1,
+  },
+  {
+    question:
+      "Quem define a data das férias do empregado é ele mesmo?",
+    choices: [
+      "Verdadeiro",
+      "Falso",
+    ],
+    correct: 1,
+  },
+  {
+   question:
+      "O empregador pode obrigar o empregado a vender as férias?",
+    choices: [
+      "Verdadeiro",
+      "Falso",
+    ],
+    correct: 1,
+  },
+  {
+   question:
+      "Qual o prazo para entrar com ação trabalhista?",
+    choices: [
+      "30 anos",
+      "5 anos",
+      "2 anos",
+      "4 anos",
+    ],
+    correct: 2,
+  },
+  {
+     question:
+      "Empregado com estabilidade (ex : gestante) pode pedir demissão?",
+    choices: [
+      "Verdadeiro",
+      "Falso",
+    ],
+    correct: 0,
+  },
+  {
+   question:
+      "Qual é a jornada de trabalho máxima permitida no Brasil?",
+    choices: [
+      "10h por dia e 60h semanais",
+      "8h por dia e 44h semanais",
+      "9h por dia e 50h semanais",
+      "7h por dia e 48h semanais",
+    ],
+    correct: 1,
+  },
+  {
+   question:
+      "Qual o prazo para pagamento do salário?",
+    choices: [
+      "2º dia útil",
+      "3º dia útil",
+      "5º dia útil",
+      "7º dia útil",
+    ],
+    correct: 2,
+  },
+  {
+   question:
+      "Estou no período de experiencia. Se eu ficar grávida tenho direito a estabilidade?",
+    choices: [
+      "Sim",
+      "Não",
+    ],
+    correct: 0,
+  },
+  {
+   question:
+      "Em quantos dias uteis após a admissão o empregador tem que assinar a carteira de trabalho do empregado?",
+    choices: [
+      "30 dias úteis",
+      "20 dias úteis",
+      "7 dias úteis",
+      "5 dias úteis",
+    ],
+    correct: 3,
+  },
+  {
+   question:
+      "Quando o empregado se casa, quantos dias consecutivos ele tem direito de faltar sem descontar no salário?",
+    choices: [
+      "2 dias consecutivos",
+      "3 dias consecutivos",
+      "5 dias consecutivos",
+      "7 dias consecutivos",
+    ],
+    correct: 1,
+  },
 ];
