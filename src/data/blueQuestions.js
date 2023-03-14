@@ -44,4 +44,35 @@ export const Questions = [
     choices: ["Certo", "Errado"],
     correct: 0,
   },
+  {
+    question:
+      "Qual o valor do depósito do FGTS?",
+    choices: [
+      "10% do salário", 
+      "8% do salário",
+      "11% do salário",
+      "9% do salário",
+    ],
+    correct: 1,
+  },
+    {
+    question:
+      "Até quando o empregador pode depositar o FGTS?",
+    choices: [
+      "Dia 7", 
+      "Dia 10",
+      "Dia 12",
+      "Dia 3",
+    ],
+    correct: 0,
+  },
+      {
+    question:
+      "Dona de casa pode se aposentar?",
+    choices: [
+      "Verdadeiro", 
+      "Falso",
+    ],
+    correct: 0,
+  },
 ];
