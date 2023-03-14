@@ -178,4 +178,67 @@ export const Questions = [
     ],
     correct: 1,
   },
+    {
+   question:
+      "Na NR26 a cor de sinalização usada para identificar avisos de advertência é o:",
+    choices: [
+      "Vermelhos",
+      "Laranja",
+      "Amarelo",
+      "Azul",
+    ],
+    correct: 2,
+  },
+      {
+   question:
+      "A adoção de cores nos locais de trabalho é utilizada na prevenção de acidentes. As cores adotadas pela NR  26 são as seguintes, EXCETO:",
+    choices: [
+      "Vermelho: Usada para distinguir e indicar equipamentos e aparelhos de proteção e combate a incêndio",
+      "Branco: Empregada para indicar atenção máxima",
+      "Preta: Usada em coletores de esgoto ou lixo",
+      "Alaranjada: Empregada para identificar as partes móveis de máquinas e equipamentos",
+    ],
+    correct: 1,
+  },
+        {
+   question:
+      "Na NR25 pode ser usada em corrimões, parapeitos, pisos, faixas no piso de entrada de elevadores e plataformas de carga, diferenças de nível do piso, faixas de circulação, equipamentos de transporte e movimentação, vigas, postes, colunas e etc.",
+    choices: [
+      "Verdadeiro",
+      "Falso",
+    ],
+    correct: 1,
+  },
+          {
+   question:
+      "De acordo com a regulamentação para Sinalização de Segurança, a cor a ser utilizada para indicar as canalizações de inflamáveis e líquidos de alta viscosidade é:",
+    choices: [
+      "Branca",
+      "Azul",
+      "Vermelha",
+      "Preta",
+    ],
+    correct: 3,
+  },
+            {
+   question:
+      "Posso ser jovem aprendiz com qual idade?",
+    choices: [
+      "Entre 14 e 24 anos",
+      "Entre 15 e 20 anos",
+      "Entre 15 e 20 anos",
+      "Entre 16 e 22 anos",
+    ],
+    correct: 0,
+  },
+              {
+   question:
+      "O empregador não é obrigado a dar intervalo de almoço a trabalhadores que não tem a jornada superior a 6 horas diárias?",
+    choices: [
+      "Verdadeiro",
+      "Falso",
+    ],
+    correct: 1,
+  },
+  
 ];
