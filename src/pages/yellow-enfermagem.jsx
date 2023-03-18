@@ -1,6 +1,6 @@
 import { Container, Section } from "../styles/pages/home";
 import React, { useState, useEffect } from "react";
-import { Questions } from "../data/purpleEnfermagemQuestions.js";
+import { Questions } from "../data/yellowEnfermagemQuestions.js";
 
 import { useRouter } from "next/router";
 import UseAnimations from "react-useanimations";
