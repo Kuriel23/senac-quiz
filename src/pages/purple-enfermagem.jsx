@@ -66,7 +66,7 @@ export default function PlayPage() {
           height="max-content"
           minH="100vh"
           padding="15px"
-          bgGradient="linear-gradient(336deg, purple 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, purple 100%);"
+          bgGradient="linear-gradient(336deg, yellow 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, yellow 100%);"
         >
           <Box
             bg="gray.200"
@@ -82,7 +82,7 @@ export default function PlayPage() {
                 size="120px"
                 thickness="10px"
                 capIsRound
-                bg="purple"
+                bg="yellow"
                 trackColor="black"
                 borderRadius="550px"
                 my="30px"
