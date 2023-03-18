@@ -90,7 +90,7 @@ export default function PlayPage() {
                 color="purple.600"
               >
                 <CircularProgressLabel
-                  color="white"
+                  color="black"
                   fontWeight={500}
                   fontSize="5xl"
                 >
