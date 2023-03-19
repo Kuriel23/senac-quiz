@@ -12,7 +12,7 @@ export const Questions = [
   },
   {
     question:
-      "Júllia foi à Farmácia Preço Baixo comprar algodão com R$ 9,00 que recebeu de sua mãe. O balconista informou que um pacote de algodão custa R$ 1,25. Se Pérola comprou 7 pacotes de algodão, quanto lhe sobrou de troco?",
+      "Júllia foi à Farmácia Preço Baixo comprar algodão com R$ 9,00 que recebeu de sua mãe. O balconista informou que um pacote de algodão custa R$ 1,25. Se Júllia comprou 7 pacotes de algodão, quanto lhe sobrou de troco?",
     choices: ["R$1,25", "0,75", "0,45", "0,25"],
     correct: 3,
   },
@@ -29,7 +29,7 @@ export const Questions = [
   },
   {
     question:
-      "No dia 1 deste mês, um produto Estava sendo vendido por R$ 400,00. No dia 10, esse produto sofreu uma redução de 50% no seu preço. No dia 20, Ele foi reajustado com um aumento de 50%. Escolha a alternativa correta.",
+      "No dia 1 deste mês, um produto estava sendo vendido por R$ 400,00. No dia 10, esse produto sofreu uma redução de 50% no seu preço. No dia 20, ele foi reajustado com um aumento de 50%. Escolha a alternativa correta.",
     choices: [
       "O produto estava mais barato no dia 1 do que no dia 20.",
       "No dia 20 o produto estava com o mesmo preço que ele estava no dia 1.",
