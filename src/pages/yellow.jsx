@@ -82,12 +82,12 @@ export default function PlayPage() {
                 size="120px"
                 thickness="10px"
                 capIsRound
-                bg="yellow"
+                bg="purple"
                 trackColor="black"
                 borderRadius="550px"
                 my="30px"
                 mb="20px"
-                color="purple.600"
+                color="yellow"
               >
                 <CircularProgressLabel
                   color="black"

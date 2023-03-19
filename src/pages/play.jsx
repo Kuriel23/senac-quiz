@@ -86,9 +86,9 @@ export default function PlayPage() {
                   </Center>
                 </Box>
               </Link>
-              <Link href={"/purple" + (isEnfermagem ? "-enfermagem" : "")}>
+              <Link href={"/yellow" + (isEnfermagem ? "-enfermagem" : "")}>
                 <Box
-                  bg="purple.700"
+                  bg="yellow.700"
                   borderRadius={15}
                   borderWidth="3px"
                   borderColor="white"
