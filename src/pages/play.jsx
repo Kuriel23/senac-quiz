@@ -77,7 +77,7 @@ export default function PlayPage() {
                       </Text>
                       <Image
                         src="/logo3.png"
-                        w="100px"
+                        w="150px"
                         my="30px"
                         pt="100%"
                         mx="auto"
@@ -114,7 +114,7 @@ export default function PlayPage() {
                       </Text>
                       <Image
                         src="/logo3.png"
-                        w="100px"
+                        w="150px"
                         my="30px"
                         pt="100%"
                         mx="auto"
@@ -151,7 +151,7 @@ export default function PlayPage() {
                       </Text>
                       <Image
                         src="/logo3.png"
-                        w="100px"
+                        w="150px"
                         my="30px"
                         pt="100%"
                         mx="auto"
@@ -188,7 +188,7 @@ export default function PlayPage() {
                       </Text>
                       <Image
                         src="/logo3.png"
-                        w="100px"
+                        w="150px"
                         my="30px"
                         pt="100%"
                         mx="auto"
