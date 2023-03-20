@@ -70,4 +70,76 @@ export const Questions = [
     ],
     correct: 0,
   },
+  
+          {
+    question:
+      "Para realização de procedimentos cirúrgicos, recomenda-se a utilização de luvas de:",
+    choices: [
+      "Borracha",
+      "Látex estéril",
+      "Vinil",
+      "Borracha nitrílica",
+    ],
+    correct: 1,
+  },
+  
+            {
+    question:
+      "Assinale a alternativa correta no que diz respeito à lavagem das mãos.",
+    choices: [
+      "O uso de luvas exclui a necessidade de lavagem das mãos.",
+      "O uso de luvas dispensa a necessidade de se manter as unhas curtas.",
+      "Realize o procedimento de lavagem de mãos a cada atividade, lavando-as em uma pia distinta daquela usada para a lavagem do instrumental.",
+      "Utilize técnicas que tratem de forma específica cada parte das mãos, pois há regiões que demandam menos cuidados na hora da lavagem.",
+    ],
+    correct: 2,
+  },
+  
+              {
+    question:
+      "Uma mulher visita o marido hospitalizado por tuberculose. Ao receber orientações sobre os cuidados que deve adotar antes de entrar no quarto, ela refere que tem alergia a álcool. Com base nesse caso, assinale a alternativa que apresenta os dois principais cuidados a serem realizados pela esposa.",
+    choices: [
+      "Evitar tocar o paciente e usar botas de borracha",
+      "Manter distância do paciente e usar avental",
+      "Lavar as mãos e usar máscara",
+      "Manter distância do paciente e usar óculos",
+    ],
+    correct: 2,
+  },
+  
+                {
+    question:
+      "Para qual patologia é recomendado o uso da máscara N95 pelo profissional de enfermagem?",
+    choices: [
+      "Rubéola",
+      "Parotidite",
+      "Sarampo",
+      "Doença meningocócica",
+    ],
+    correct: 2,
+  },
+  
+                  {
+    question:
+      "Assinale a alternativa correta sobre as precauções padrão e equipamentos de proteção individual usadas no trabalho da enfermagem:",
+    choices: [
+      "Luvas, protetores auriculares, manga isolante, avental e lavagem das mãos.",
+      "Palmilha antibacteriana, balaclava anti-chamas e caixa pérfuro-cortante.",
+      "Bota coturno de microfibra, luva malha tricotada eóculos.",
+      "Higienização das mãos, luvas, avental, óculos, máscara e caixa pérfuro-cortante.",
+    ],
+    correct: 3,
+  },
+  
+                    {
+    question:
+      "Com relação à biossegurança no hospital, assinale a opção que apresenta a principal recomendação para proteção de riscos biológicos.",
+    choices: [
+      "O uso de aventais de proteção, sempre que houver contato com visitas ambulatoriais.",
+      "O uso extensivo de cloro para higienização eficaz das mãos nas enfermarias. ",
+      "A imunização de adolescentes e crianças nas unidades de terapia intensiva.",
+      "O cumprimento das precauções universais. ",
+    ],
+    correct: 3,
+  },
 ];
