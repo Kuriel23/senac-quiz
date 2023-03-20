@@ -79,7 +79,7 @@ export default function PlayPage() {
                         src="/logo3.png"
                         w="150px"
                         my="30px"
-                        pt="90%"
+                        pt="70%"
                         mx="auto"
                       />
                     </VStack>
@@ -116,7 +116,7 @@ export default function PlayPage() {
                         src="/logo3.png"
                         w="150px"
                         my="30px"
-                        pt="90%"
+                        pt="70%"
                         mx="auto"
                       />
                     </VStack>
@@ -153,7 +153,7 @@ export default function PlayPage() {
                         src="/logo3.png"
                         w="150px"
                         my="30px"
-                        pt="90%"
+                        pt="70%"
                         mx="auto"
                       />
                     </VStack>
@@ -190,7 +190,7 @@ export default function PlayPage() {
                         src="/logo3.png"
                         w="150px"
                         my="30px"
-                        pt="90%"
+                        pt="70%"
                         mx="auto"
                       />
                     </VStack>
