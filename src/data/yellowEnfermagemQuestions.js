@@ -142,4 +142,40 @@ export const Questions = [
     ],
     correct: 3,
   },
+  
+                      {
+    question:
+      "É recomendação específica correta que deve ser seguida durante a realização de procedimentos que envolvam a manipulação de material perfurocortante:",
+    choices: [
+      "Utilizar os dedos como anteparo durante a realização de procedimentos que envolvam materiais perfurocortantes.",
+      "As agulhas devem ser reencapadas, entortadas, quebradas ou retiradas da seringa com as mãos, mas com muito cuidado. ",
+      "Os coletores específicos para descarte de material perfurocortante devem ser preenchidos acima do limite de 2/3 de sua capacidade total.",
+      "Não utilizar agulhas usadas para fixar papéis. ",
+    ],
+    correct: 3,
+  },
+  
+                        {
+    question:
+      "Tendo em vista a implementação de medidas de biossegurança nos estabelecimentos de saúde. É correto afirmar que o(s):",
+    choices: [
+      "Uso de calçados abertos será permitido apenas na atenção básica de saúde.",
+      "Reencape de agulhas deve ser realizado sob o uso completo do EPI previsto.",
+      "Profissionais de saúde não devem deixar o local de trabalho com os equipamentos de proteção individual e as vestimentas utilizadas em suas atividades laborais.",
+      "Uso de luvas substitui a lavagem das mãos, desde que a lavagem tenha ocorrido antes do seu uso.",
+    ],
+    correct: 2,
+  },
+  
+                          {
+    question:
+      "A higienização das mãos é considerada uma das principais medidas na redução do risco de transmissão de agentes biológicos. Sobre a lavagem das mãos, é correto afirmar que:",
+    choices: [
+      "Para antissepsia rotineira, se as mãos não estiverem visivelmente sujas, devem-se usar preferencialmente produtos para higienização das mãos à base de glicosídios.",
+      "A higienização das mãos também é indicada após contato com o mobiliário e equipamentos próximos ao paciente.",
+      "Quando as mãos estão contaminadas com sangue, devem-se usar, simultaneamente, produtos à base de álcool com sabão antisséptico,",
+      "Atualmente, uso de luvas de procedimentos grau III substitui a necessidade de higienização das mãos.",
+    ],
+    correct: 2,
+  },
 ];
