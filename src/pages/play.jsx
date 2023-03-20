@@ -8,12 +8,25 @@ import {
   Image,
   Center,
   SimpleGrid,
-  Switch,
   HStack,
+  IconButton,
+  AlertDialogHeader,
+  AlertDialogContent,
+  AlertDialogOverlay,
+  AlertDialogBody,
+  AlertDialog,
+  useDisclosure,
 } from "@chakra-ui/react";
+import { BiInjection } from "react-icons/bi";
+import { MdOutlineSchool } from "react-icons/md";
+import { SiSurveymonkey } from "react-icons/si";
+
+import { Micos } from "../data/micos.js";
 
 export default function PlayPage() {
-  const localStorage = typeof window !== `undefined` ? window.localStorage : null
+  const { isOpen, onOpen, onClose } = useDisclosure();
+  const localStorage =
+    typeof window !== `undefined` ? window.localStorage : null;
   const [isEnfermagem, setIsEnfermagem] = useState(
     localStorage && localStorage.getItem("isEnfermagem")
       ? JSON.parse(localStorage.getItem("isEnfermagem"))
@@ -27,6 +40,19 @@ export default function PlayPage() {
   return (
     <Container>
       <Section>
+        <AlertDialog isOpen={isOpen} onClose={onClose}>
+          <AlertDialogOverlay>
+            <AlertDialogContent>
+              <AlertDialogHeader fontSize="lg" fontWeight="bold">
+                Mico!
+              </AlertDialogHeader>
+
+              <AlertDialogBody>
+                {Micos[Math.floor(Math.random() * Micos.length)]}
+              </AlertDialogBody>
+            </AlertDialogContent>
+          </AlertDialogOverlay>
+        </AlertDialog>
         <Center
           width="100vw"
           minH="100vh"
@@ -34,15 +60,6 @@ export default function PlayPage() {
           bgGradient="linear-gradient(336deg, rgba(29,2,76,1) 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, rgba(29,2,76,1) 100%);"
         >
           <VStack>
-            <HStack mb="25px">
-              <Text color="white">Modo Enfermagem</Text>
-              <Switch
-                colorScheme="purple"
-                size="lg"
-                isChecked={isEnfermagem}
-                onChange={(e) => setIsEnfermagem(e.target.checked)}
-              />
-            </HStack>
             <SimpleGrid
               columns={{ xl: 4, base: 1 }}
               spacing={10}
@@ -198,6 +215,26 @@ export default function PlayPage() {
                 </Box>
               </Link>
             </SimpleGrid>
+            <HStack mt="50px" justifyContent="space-between" display="flex">
+              <IconButton
+                colorScheme="purple"
+                as={!isEnfermagem ? BiInjection : MdOutlineSchool}
+                onClick={() => setIsEnfermagem(!isEnfermagem)}
+                p="1"
+                w="3vw"
+                h="auto"
+                borderRadius={25}
+              />
+              <IconButton
+                colorScheme="purple"
+                as={SiSurveymonkey}
+                onClick={onOpen}
+                p="1"
+                w="3vw"
+                h="auto"
+                borderRadius={25}
+              />
+            </HStack>
           </VStack>
         </Center>
       </Section>
