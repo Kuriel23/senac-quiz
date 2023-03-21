@@ -90,4 +90,104 @@ export const Questions = [
     choices: ["Veja", "A Patriota", "Forbes", "O Tico-Tico"],
     correct: 3,
   },
+    {
+    question: "De quem é a famosa frase 'Penso, logo existo'? ",
+    choices: [
+      "Platão",
+      "Deodoro da Fonseca",
+      "Descartes",
+      "Sócrates",
+    ],
+    correct: 2,
+  },
+      {
+    question: "Qual o nome do presidente do Brasil que ficou conhecido como Jango?",
+    choices: [
+      "Jacinto Anjos",
+      "Jânio Quadros",
+      "Getulho Vargas",
+      "João Goulart",
+    ],
+    correct: 3,
+  },
+        {
+    question: "O que é Filantropo?",
+    choices: [
+      "Pessoa com excesso de confiança",
+      "Pessoa egoísta",
+      "Pessoa que pratica a caridade",
+      "Pessoa fria",
+    ],
+    correct: 2,
+  },
+          {
+    question: "Qual o 1° presidente do Brasil?",
+    choices: [
+      "Deodoro da Fonseca",
+      "Luiz Inácio Lula da Silva",
+      "Floriano Peixoto",
+      "Floriano Peixoto",
+    ],
+    correct: 0,
+  },
+            {
+    question: "Como Adolf Hitler morreu ?",
+    choices: [
+      "Enforcado",
+      "Vítima de câncer",
+      "Decapitado",
+      "Suicídio",
+    ],
+    correct: 3,
+  },
+              {
+    question: "Em que país aconteceu o acidente do Césio-137?",
+    choices: [
+      "USA",
+      "Brasil",
+      "Rússia",
+      "Afeganistão",
+    ],
+    correct: 1,
+  },
+                {
+    question: "Em que governo brasileiro foi sancionada a lei das cotas para o ensino superior?",
+    choices: [
+      "Governo de Tancredo Neves",
+      "Governo de José Sarney",
+      "Governo de Dilma Rousseff",
+      "Governo de Luís Inácio Lula da Silva",
+    ],
+    correct: 2,
+  },
+                  {
+    question: "O que significa ONU?",
+    choices: [
+      "Organização das Nações Universitárias ",
+      " Organização das Nações Unidas",
+      "Orgão Nacional Estadunidense",
+      "Organismos Nacionais Únicos",
+    ],
+    correct: 1,
+  },
+                    {
+    question: "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+    choices: [
+      "O Senhor dos Anéis",
+      "Dom Quixote",
+      "O Pequeno Príncipe",
+      "Ela, a Feiticeira",
+    ],
+    correct: 1,
+  },
+                      {
+    question: "Qual o livro mais vendido no mundo a seguir à Bíblia?",
+    choices: [
+      "O Senhor dos Anéis",
+      "Dom Quixote",
+      "O Pequeno Príncipe",
+      "Ela, a Feiticeira",
+    ],
+    correct: 1,
+  },
 ];
