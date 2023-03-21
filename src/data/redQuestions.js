@@ -190,4 +190,54 @@ export const Questions = [
     ],
     correct: 1,
   },
+                        {
+    question: "Angola é um país que se localiza no(a): ",
+    choices: [
+      "América do Norte",
+      "Arábia Saudita",
+      "Egito",
+      "África",
+    ],
+    correct: 3,
+  },
+                          {
+    question: "Mandarim é o idioma falado de qual país? ",
+    choices: [
+      "Coréia",
+      "País de Gales",
+      "China",
+      "Grécia",
+    ],
+    correct: 2,
+  },
+                            {
+    question: "Quem foi a primeira pessoa a pisar no espaço? ",
+    choices: [
+      "Yuri Gagarin",
+      "A cadela Laika",
+      "Neil Armstrong",
+      "Marcos Pontes",
+    ],
+    correct: 0,
+  },
+                              {
+    question: "Onde se localiza Machu Picchu?",
+    choices: [
+      "Colômbia",
+      "Peru",
+      "China",
+      "Bolívia",
+    ],
+    correct: 1,
+  },
+                                {
+    question: "Qual o maior planeta do sistema solar?",
+    choices: [
+      "Lua",
+      "Marte",
+      "Terra",
+      "Júpiter",
+    ],
+    correct: 3,
+  },
 ];
