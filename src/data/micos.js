@@ -1,6 +1,6 @@
 export const Micos = [
-  "Assinale a alternativa com a situação em que o FGTS não poderá ser sacado:",
-  "B",
-  "C",
-  "D",
+  "Dance como Michael Jackson",
+  "Cante uma música da Xuxa",
+  "Imite um animal aleatório",
+  "Escolha uma música e cante o refrão",
 ];
