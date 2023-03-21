@@ -1,7 +1,7 @@
 export const Questions = [
   {
     question:
-      "Assinale a alternativa com a situação em que o FGTS não poderá ser sacado:",
+      "Assinale a alternativa com a situação em que o FGTS não poderá ser sacado::",
     choices: [
       "Aposentadoria por invalidez.",
       "Suspensão do trabalho avulso por período igual ou superior a 60 (sessenta) dias.",
