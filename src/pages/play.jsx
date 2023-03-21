@@ -40,7 +40,7 @@ export default function PlayPage() {
   return (
     <Container>
       <Section>
-        <AlertDialog isOpen={isOpen} onClose={onClose}>
+        <AlertDialog isOpen={isOpen} onClose={onClose} isCentered>
           <AlertDialogOverlay>
             <AlertDialogContent>
               <AlertDialogHeader fontSize="lg" fontWeight="bold">
