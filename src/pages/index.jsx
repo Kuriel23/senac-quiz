@@ -19,7 +19,7 @@ export default function Home() {
           bgGradient="linear-gradient(336deg, rgba(29,2,76,1) 0%, rgba(15,0,21,1) 35%, rgba(15,0,21,1) 65%, rgba(29,2,76,1) 100%);"
         >
           <VStack display="table" margin="0" textAlign="center">
-            <Image src="/logo.png" w="300px" my="30px" />
+            <Image src="/logo3.png" w="300px" my="30px" />
             <Link href="/play">
             <Button
               w="200px"
