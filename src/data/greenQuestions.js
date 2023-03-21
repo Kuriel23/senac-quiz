@@ -54,4 +54,81 @@ export const Questions = [
     ],
     correct: 3,
   },
+    {
+    question:
+      "Chamamos de perímetro:",
+    choices: [
+      "uma medida maior que quatro metros",
+      "a medida do contorno de uma figura geométrica plana",
+      "um instrumento usado para medir",
+      "a base vezes a altura de um retângulo",
+    ],
+    correct: 1,
+  },
+      {
+    question:
+      "Algarismos são símbolos utilizados para:",
+    choices: [
+      "identificar as letras do alfabeto",
+      "representar figuras geométricas",
+      "escrever o nome das pessoas",
+      "representação de números",
+    ],
+    correct: 3,
+  },
+        {
+    question:
+      "A massa de um objeto é a propriedade que indica o quanto ele é:",
+    choices: [
+      "bacana",
+      "volumoso",
+      "pesado",
+      "resistente",
+    ],
+    correct: 2,
+  },
+          {
+    question:
+      "Quantos centímetros existem em 5 metros?",
+    choices: [
+      "50cm",
+      "500cm",
+      "5000cm",
+      "0,5cm",
+    ],
+    correct: 1,
+  },
+            {
+    question:
+      "O que é um algoritmo?",
+    choices: [
+      "é o mesmo que algarismo",
+      "conjunto de regras necessárias à resolução de um problema ou cálculo",
+      "um conjunto numérico",
+      "um conjunto de caracteres acentuados",
+    ],
+    correct: 1,
+  },
+              {
+    question:
+      "Quantas faces tem um cubo?",
+    choices: [
+      "quatro faces quadradas",
+      "quatro faces redondas",
+      "seis faces quadradas",
+      "seis faces redondas",
+    ],
+    correct: 2,
+  },
+                {
+    question:
+      "Uma figura plana é aquela que possui:",
+    choices: [
+      "dois lados",
+      "três lados",
+      "quatro lados",
+      "duas dimensões",
+    ],
+    correct: 3,
+  },
 ];
