@@ -218,7 +218,7 @@ export default function PlayPage() {
             <HStack mt="50px" justifyContent="space-between" display="flex">
               <IconButton
                 colorScheme="purple"
-                as={!isEnfermagem ? BiInjection : MdOutlineSchool}
+                as={isEnfermagem ? BiInjection : MdOutlineSchool}
                 onClick={() => setIsEnfermagem(!isEnfermagem)}
                 p="1"
                 w="3vw"
