@@ -173,8 +173,56 @@ export const Questions = [
     choices: [
       "Para antissepsia rotineira, se as mãos não estiverem visivelmente sujas, devem-se usar preferencialmente produtos para higienização das mãos à base de glicosídios.",
       "A higienização das mãos também é indicada após contato com o mobiliário e equipamentos próximos ao paciente.",
-      "Quando as mãos estão contaminadas com sangue, devem-se usar, simultaneamente, produtos à base de álcool com sabão antisséptico,",
+      "Quando as mãos estão contaminadas com sangue, devem-se usar, simultaneamente, produtos à base de álcool com sabão antisséptico.",
       "Atualmente, uso de luvas de procedimentos grau III substitui a necessidade de higienização das mãos.",
+    ],
+    correct: 2,
+  },
+  
+                            {
+    question:
+      "A medida individual mais simples e menos dispendiosa para prevenir a propagação das infecções relacionadas à assistência à saúde é:",
+    choices: [
+      "Usar antimicrobianos.",
+      "Higienização das mãos.",
+      "Esterilização de materiais.",
+      "Limpeza do ambiente.",
+    ],
+    correct: 1,
+  },
+  
+                              {
+    question:
+      "A limpeza concorrente do leito hospitalar se refere à limpeza",
+    choices: [
+      "diária das superfícies horizontais, mobiliários e equipamentos e do piso.",
+      "realizada no mobiliário, superfícies e pisos quando apresentam sujidade.",
+      "semanal das superfícies horizontais, mobiliários, equipamentos, pisos e paredes.",
+      "realizada em todos os componentes do leito, incluindo pisos e paredes após a alta, transferência ou óbito do paciente.",
+    ],
+    correct: 0,
+  },
+  
+                                {
+    question:
+      "Assinale a alternativa correta com relação ao controle de microrganismos:",
+    choices: [
+      "Bactérias na forma vegetativa são muito resistentes à desinfecção por calor úmido;",
+      "O álcool etílico é muito utilizado no laboratório, pois tem ação contra todas as formas microbianas;",
+      "Sempre quanto maior a concentração, mais eficaz é o desinfetante;",
+      "A luz ultravioleta somente é eficaz contra microrganismos presentes na superfície.",
+    ],
+    correct: 0,
+  },
+  
+                                  {
+    question:
+      "Com relação à higienização das mãos deve-se exceto:",
+    choices: [
+      "Remover relógio e demais adornos antes da higienização.",
+      "Acondicionar o material utilizado na secagem das mãos em recipiente junto aos lavatórios.",
+      "Secar as mãos completamente com toalha de tecido.",
+      "Utilizar, sempre que possível, lavatórios exclusivos para higienização das mãos.",
     ],
     correct: 2,
   },
