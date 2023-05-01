@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@chakra-ui/react": "2.5.0",
-    "@emotion/react": "11.10.5",
-    "@emotion/styled": "11.10.5",
+    "@emotion/react": "11.10.8",
+    "@emotion/styled": "11.10.8",
     "framer-motion": "10.12.5",
     "next": "13.3.4",
     "phosphor-react": "^1.4.1",
